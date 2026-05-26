@@ -1,0 +1,35 @@
+# Git ignore file for GitHub Pages
+
+# Jekyll build
+_site/
+.jekyll-cache/
+.jekyll-metadata
+*.gem
+
+# Dependencies
+Gemfile.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Environment
+.env
+.env.local
+
+# Node (if using additional tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
