@@ -1,54 +1,26 @@
-# GitHub Pages Site Configuration
-# Jekyll configuration file for GitHub Pages
-
-# Site settings
 title: Bharath's Portfolio
 description: A portfolio website showcasing projects and expertise
 url: "https://bharath21091996.github.io"
 baseurl: ""
 
-# Author information
 author:
   name: Bharath
   email: bharathkumarannapureddy05@gmail.com
   github: bharath21091996
 
-# Build settings
 markdown: kramdown
-remote_theme: jekyll/minima
+theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
 
-# Jekyll build
-sass:
-  sass_dir: _sass
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules/
   - vendor/
 
-# Future posts
-future: false
-
-# Keep files
-keep_files:
-  - .git
-  - .gitignore
-
-# Timezone
 timezone: UTC
-
-# Show excerpts
-show_excerpts: true
-
-# Pagination (if using jekyll-paginate)
-paginate: 10
-
-# Enable compression for better performance
-compress_output: true
